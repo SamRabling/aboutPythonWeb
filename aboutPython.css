@@ -1,0 +1,5 @@
+.wrapper{
+    width:990px;
+    overflow:auto;
+    background: linear-gradient(rgb(29,64,101), rgb(40,94,154));
+}
