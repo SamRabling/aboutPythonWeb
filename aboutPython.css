@@ -2,4 +2,91 @@
     width:990px;
     overflow:auto;
     background: linear-gradient(rgb(29,64,101), rgb(40,94,154));
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.searchBar{
+    height:50px;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.header{
+    height:100px;
+}
+
+.pythonLogo{
+    height:100px;
+    width:auto;
+    display: inline-block;
+}
+
+.searchAndText{
+    display:inline-block;
+    vertical-align: top;
+    margin: 0px 5px 0px 455px;
+    font-size: 12px;
+}
+
+.contentBar{
+    height: 50px;
+    width:850px;
+    background: linear-gradient(rgb(40,93,152), rgb(63, 106, 163), rgb(40,93,152));
+    margin: 0px 40px 0px 60px;
+    border-radius: 8px;
+    box-shadow: 2px 3px;
+}
+
+.conBar{
+    color:white;
+    display:inline-block;
+    margin: 13px 0px 10px 45px;
+    font-size: 20px;
+}
+
+.main-content{
+    height:auto;
+    width:800px;
+    margin: 0px 40px 0px 100px;
+    /* border: dotted 2px red; */
+}
+
+.navegation{
+    height:auto;
+    display:inline-block;
+    width: 250px;
+    padding-top: 20px;
+}
+
+a{
+    color:white;
+    margin-top:10px;
+    display:block;
+    text-align: center;
+    font-size: 15px;
+}
+
+.introduction{
+    height:auto;
+    width:520px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+    
+}
+
+.intro1{
+    color:white;
+    font-size: 13px;
+}
+
+.intro2{
+    color:rgb(239,194,42);
+    font-style: italic;
+}
+
+li{
+    padding: 8px 0px 0px 0px;
+    text-align: center;
 }
