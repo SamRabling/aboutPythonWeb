@@ -13,6 +13,7 @@
     border-radius: 8px;
     display: inline-block;
     box-shadow: 2px 2px;
+    
 }
 
 .buttonAndInput{
@@ -24,6 +25,7 @@ button{
     border-radius: 3px;
     height: 25px;
     margin: 0px 0px 0px 5px;
+    color:white;
 }
 
 .header{
@@ -115,14 +117,25 @@ a{
     font-style: italic;
 }
 
+.bigger{
+    font-size: 15px;
+}
+
 li{
-    padding: 8px 0px 0px 0px;
+    font-size: 12px;
+    margin-top: 5px;
     text-align: center;
+    list-style-type: square;
+}
+
+.blue{
+    color:rgb(137,186,227);
 }
 
 .usefulLinks{
     height:200px;
     background-color: white;
+    text-align: center;
 }
 
 .gettingStarted{
@@ -135,15 +148,41 @@ li{
 }
 
 .lineTop{
-    height:2px;
-    width:350px;
+    height:3px;
+    width:390px;
     background-color: rgb(90,158,207);
-    margin:10px;
+    margin:5px;
 }
 
 .standout{
-    font-size: 12px;
+    font-size: 8px;
     color:rgb(137,186,227);
+}
+
+.subTitle{
+    font-size: 14px;
+    font-weight: 400;
+    margin:5px;
+    margin-right: 100px;
+}
+
+.usefulTextBox{
+    width:260px;
+    height:150px;
+    margin-left: 20px;
+}
+.usefulText{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.side_nav_bullets { 
+    font-size: 10px; 
+    color: #f5CF4E; 
+}
+
+ul{
+    margin:0px;
 }
 
 .footer{
@@ -156,9 +195,14 @@ li{
 .footerOptions{
     display:inline-block;
     margin-left:50px;
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 .copyright{
-    font-size: 11px;
+    font-size: 8px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
+
